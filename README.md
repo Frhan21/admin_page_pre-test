@@ -25,7 +25,7 @@ Sistem web sederhana untuk mengelola data produk, stok, dan transaksi pembelian 
 
 ## 📁 Struktur Direktori
 
-```
+```bash
 admin_page/
 ├── app.js # Entry point Express
 ├── db.js # Koneksi ke database
@@ -38,21 +38,6 @@ admin_page/
 │ └── style.css # Desain bebas (optional)
 ├── .env # Konfigurasi koneksi MySQL
 └── README.md # Dokumentasi proyek
-```
-
-```
-ai-chatbot/
-├── client/               # React.js (frontend)
-│   ├── src/
-│   │   ├── App.js
-│   │   ├── App.css
-│   │   └── index.js
-├── server/               # Node.js (backend)
-│   ├── index.js
-│   ├── langchain.js
-│   └── .env
-├── package.json
-
 ```
 
 ## ⚙️ Setup dan Instalasi
