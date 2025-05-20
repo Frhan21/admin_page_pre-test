@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page Pembelian</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <h1>Admin Page Pembelian</h1>
+
+    <div id="alertContainer" class="alert"></div>
+
+    <div class="container">
+      <div class="form-container">
+        <h2>Form Pembelian</h2>
+        <form id="beliForm">
+          <label for="productSelect">Pilih Produk:</label>
+          <select id="productSelect" required></select>
+
+          <label for="jumlah">Jumlah:</label>
+          <input type="number" id="jumlah" placeholder="Jumlah" min="1"
+            required>
+
+          <button type="submit">Beli Produk</button>
+        </form>
+      </div>
+
+      <div class="table-container">
+        <h2>Daftar Produk</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Nama Produk</th>
+              <th>Harga</th>
+              <th>Stok</th>
+            </tr>
+          </thead>
+          <tbody id="produkList">
+            <!-- Data produk akan ditampilkan di sini -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <h2>Daftar Pembelian</h2>
+    <h3 id="jumlahPembelian"></h3>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Produk</th>
+          <th>Jumlah</th>
+          <th>Total Harga</th>
+          <th>Tanggal</th>
+          <th>Status</th>
+          <th>Aksi</th>
+        </tr>
+      </thead>
+      <tbody id="pembelianList">
+        <!-- Data pembelian akan ditampilkan di sini -->
+      </tbody>
+    </table>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
