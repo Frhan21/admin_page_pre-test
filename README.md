@@ -121,10 +121,5 @@ Content-Type: application/json
 * Konversi PWA atau React SPA
 * Responsif untuk Mobile 
 
-#📝 Lisensi
-MIT License © 2025
-
-#🙌 Kontributor
-Jika Anda ingin README ini disertai **tangkapan layar**, **GIF demo**, atau **badge GitHub**, saya bisa bantu tambahkan. Tinggal beri tahu saja!
-
-Sukses untuk pengembangan selanjutnya!
+# 📝 Lisensi
+# MIT License © 2025
